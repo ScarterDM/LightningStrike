@@ -1,0 +1,13 @@
+name: LightningStrike
+main: com.seudominio.lightning.LightningStrike
+version: 1.0
+api-version: 1.21
+commands:
+  strike:
+    description: Invoca um raio no local que você está mirando.
+    usage: /<command>
+    permission: lightningstrike.use
+permissions:
+  lightningstrike.use:
+    description: Permite usar /strike
+    default: true
